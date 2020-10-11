@@ -39,8 +39,6 @@
       </div>
     </div>
   </div>
-
-  <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
@@ -59,8 +57,11 @@
 
     </div>
   </header>
+  
+  
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
+    <div id="particles-js"></div>
       <h1>Bienvenido a  ARGXENTIA</h1>
       <h2>Creamos cosas asombrosas, hacemos de tu idea una realidad.</h2>
       <a href="#about" class="btn-get-started scrollto">NOSOTROS</a>
@@ -140,7 +141,7 @@
             <div class="icon-box">
               <div class="icon"><i class="icofont-web"></i></div>
               <h4><a href="">Desarrollo web</a></h4>
-              <p>Desarrollamos aplicaciones web responsive</p>
+              <p>Desarrollamos aplicaciones web responsive, efectivas y funcionales</p>
             </div>
           </div>
 
@@ -164,7 +165,7 @@
             <div class="icon-box">
               <div class="icon"><i class="icofont-smart-phone"></i></div>
               <h4><a href="">Desarrollo mobile</a></h4>
-              <p>Desarrollamos aplicaciones mobile</p>
+              <p>Desarrollamos aplicaciones mobile, funcionales y excelentes</p>
             </div>
           </div>
 
@@ -202,15 +203,15 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Portafolio</span>
-          <h2>Portafolio</h2>
+          <span>Portfolio</span>
+          <h2>Portfolio</h2>
           <p>Trabajos realizados <i class="icofont-look" style="color: crimson;"></i></p>
         </div>
 
         <div class="row row-cols-1 row-cols-md-3">
           <div class="col mb-4" id="brock">
             <div class="card">
-              <a href="https://electropuerto.com.ar" target="__blank"><img src="/assets/img/portfolio/1.png" class="card-img-top" alt="..."></a>
+              <a href="https://electropuerto.com.ar" target="__blank"><img src="assets/img/portfolio/1.png" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Electropuerto</h5>
                 <p class="card-text">E-commerce conectado a un sistema de gestión y facturación</p>
@@ -219,7 +220,7 @@
           </div>
           <div class="col mb-4" id="brock">
             <div class="card">
-              <a href="https://naturalpark.com.ar" target="__blank"><img src="/assets/img/portfolio/naturalpark.png" class="card-img-top" alt="..."></a>
+              <a href="https://naturalpark.com.ar" target="__blank"><img src="assets/img/portfolio/naturalpark.png" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Natural Park</h5>
                 <p class="card-text">Landing-page de podas</p>
@@ -228,32 +229,43 @@
           </div>
           <div class="col mb-4" id="brock">
             <div class="card">
-              <a href="https://becabsas.com/" target="__blank"> <img src="/assets/img/portfolio/beca.png" class="card-img-top" alt="..."></a>
+              <a href="https://becabsas.com/" target="__blank"> <img src="assets/img/portfolio/beca.png" class="card-img-top" alt="..."></a>
               <div class="card-body">
                 <h5 class="card-title">Beca</h5>
                 <p class="card-text">e-commerce de ropa</p>
               </div>
             </div>
           </div>
-          <div class="col mb-4" id="brock">
-            <div class="card">
-              <a href="https://suolabsas.com/" target="__blank"><img src="/assets/img/portfolio/suola.png" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h5 class="card-title">Suolabsas</h5>
-                <p class="card-text">e-commerce de zapatos</p>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4" id="brock">
-            <div class="card">
-             <a href="http://www.distribuidorahj.com.ar/" target="__blank"> <img src="/assets/img/portfolio/hj.png" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h5 class="card-title">Distruibuidora HJ</h5>
-                <p class="card-text">Sistema de facturación y e-commerce de ventas</p>
-              </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3" id="show" style="display:none; transition: .5s ease;">
+        <div class="col mb-4" id="brock">
+          <div class="card">
+            <a href="https://suolabsas.com/" target="__blank"><img src="assets/img/portfolio/suola.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Suolabsas</h5>
+              <p class="card-text">e-commerce de zapatos</p>
             </div>
           </div>
         </div>
+        <div class="col mb-4" id="perk">
+          <div class="card">
+           <a href="http://www.distribuidorahj.com.ar/" target="__blank"> <img src="assets/img/portfolio/hj.png" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+              <h5 class="card-title">Distruibuidora HJ</h5>
+              <p class="card-text">Sistema de facturación y e-commerce de ventas</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="text-center"><button style="text-align: center; border: 1px solid crimson; color: white; background-color: crimson;
+        padding: 10px;  outline: none; 
+        " id="mostrar"
+        >Ver más</button></div> 
+        
     </section>
 
     <section id="contact" class="contact">
@@ -402,6 +414,9 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/particles.min.js"></script>
+  
+  <script src="assets/js/particulas.js"></script>
 
 </body>
 

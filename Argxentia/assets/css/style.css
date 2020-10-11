@@ -6,6 +6,13 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  position: fixed;
+}
+
 
 a {
   color: #cc1616;
@@ -19,10 +26,17 @@ a {
 }
 
 
+
 #brock:hover{
   transition:all .5s ease-in-out;
   
   -webkit-transform:scale(1.7);transform:scale(1.2);
+}
+
+#mostrar:hover {
+
+  opacity: 0.5;
+
 }
 
 
@@ -438,7 +452,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/particulas.gif") top center;
+  background: black;
   background-size: cover;
   position: relative;
 }
@@ -752,9 +766,10 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/jupiter.gif") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/jupiter.gif");
   background-size: cover;
   padding: 120px 0;
+  background-position: center;
 }
 
 .cta h3 {
