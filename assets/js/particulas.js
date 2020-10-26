@@ -138,13 +138,13 @@ let objetos = {
   }, 
 
   show : function(){
-    propiedades.div.style.transition = ".5s top ease";
+    propiedades.div.style.transition = ".5s  ease";
     propiedades.button.innerHTML = "Ver menos";
     propiedades.div.style.display = "flex";
   },
 
   unshow: function(){
-    propiedades.div.style.transition = ".5s top ease";
+    propiedades.div.style.transition = ".5s ease";
     propiedades.button.innerHTML = "Ver más";
     propiedades.div.style.display = "none";
     
