@@ -1,0 +1,40 @@
+#columna {
+    margin: 50px;
+    padding-top: 20px;
+}
+
+.box {
+    padding: 30px;
+    border: 1px solid rgb(216, 212, 212) !important;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+.box i{
+    color: crimson;
+    font-size: 5em;
+    text-align: center;
+}
+
+
+
+
+.box:hover  {
+    background: #52575d;
+    color: white !important;
+}
+
+
+.swal2-confirm {
+
+        background: black !important;
+        color: crimson;
+
+}
+
+
+
+
