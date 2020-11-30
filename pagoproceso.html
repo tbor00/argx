@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Argxentia - Pago aprobado</title>
+    <title>Argxentia - Pago en proceso</title>
     <link rel="stylesheet" href="/assets/css/pagos.css">
     <!-- GOOGLE FONTs -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -18,15 +18,15 @@
     
     <div class="content">
 
-        <h1 class="logo">Tu pago fué aprobado con <span>éxito</span></h1>
+        <h1 class="logo">Tu pago está en <span>proceso</span></h1>
 
         <div class="contact-wrapper animated bounceInUp">
             <div class="contact-form">
                 <h3>Dejanos tu información y nos contactaremos de inmediato</h3>
-                <form action="/exitos" data-netlify-recaptcha="true" name="Pagoaprobado" netlify method="post" role="form" >
+                <form action="/exitos" data-netlify-recaptcha="true" name="pagoproceso" netlify method="post" role="form" >
                     <p>
                         <label>Nombre completo</label>
-                        <input type="text" name="fullname">
+                        <input type="text" name="nombre">
                     </p>
                     <p>
                         <label>Dirección de email</label>
@@ -34,15 +34,15 @@
                     </p>
                     <p>
                         <label>Número de telefono</label>
-                        <input type="tel" name="phone">
+                        <input type="tel" name="telefono">
                     </p>
                     <p>
                         <label>Pack adquerido</label>
-                        <input type="text" name="affair">
+                        <input type="text" name="pack">
                     </p>
                     <p class="block">
                        <label>Mensaje</label> 
-                        <textarea name="message" rows="3"></textarea>
+                        <textarea name="mensaje" rows="3"></textarea>
                     </p>
                     <div data-netlify-recaptcha="true">
                     </div>
@@ -65,7 +65,7 @@
                     <br>
                     <li><i class="fas fa-envelope-open-text"></i> info@argxentia.com.ar</li>
                 </ul>
-                <p>Si estás acá es porqué tu pago fue aprobado con éxito. Te pedimos por favor que llenes el formulario. De todas formas si no lo haces nos vamos a comunicar con vos por medio del mail registrado en mercadopago</p>
+                <p>Si estás acá es porqué tu pago esta siendo procesado. Te pedimos por favor que llenes el formulario. De todas formas si no lo haces, nos vamos a comunicar con vos por medio del email registrado en mercadopago</p>
                 <p>Argxentia.com.ar</p>
                 <p>Muchas gracias por confiar en nosotros!</p>
             </div>
