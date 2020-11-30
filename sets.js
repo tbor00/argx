@@ -160,3 +160,8 @@ ef.addEventListener("click", function () {
     imageAlt: "Custom image",
   });
 });
+
+let btmp = document.querySelectorAll(".mercadopago-button");
+[].forEach.call(btmp, function (btmp) {
+  btmp.innerHTML = "Quiero mi pack";
+});
