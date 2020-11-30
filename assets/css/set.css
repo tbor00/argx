@@ -3,7 +3,9 @@
     padding-top: 20px;
 }
 
-.box {
+
+
+.boxing {
     padding: 30px;
     border: 1px solid rgb(216, 212, 212) !important;
     border-radius: 15px;
@@ -13,16 +15,21 @@
 }
 
 
-.box i{
+.boxing i{
     color: crimson;
     font-size: 5em;
     text-align: center;
 }
 
 
+.packs {
+    
+}
 
 
-.box:hover  {
+
+
+.boxing:hover  {
     background: #52575d;
     color: white !important;
 }
@@ -35,6 +42,29 @@
 
 }
 
+.spp {
+    color: #000 !important;
+    opacity: 0.2 !important;
+}
 
 
+.mercadopago-button:hover{
+}
 
+
+.vtd {
+    background: red;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-bottom: 3px;
+    outline: none !important;
+}
+
+.vtd:hover {
+    opacity: .5;
+}
+
+.packz {
+    height: 550px !important;
+}
