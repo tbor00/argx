@@ -68,3 +68,14 @@
 .packz {
     height: 550px !important;
 }
+
+.swal2-confirm {
+    outline: none;
+}
+.swal2-styled{
+    outline: none;
+}
+
+.bg-green {
+    color: green;
+}

@@ -33,3 +33,130 @@ cp.addEventListener("click", function () {
     confirmButtonText: "Okey",
   });
 });
+
+let landing = document.querySelector("#lp");
+
+lp.addEventListener("click", function () {
+  Swal.fire({
+    title: "Landing-page",
+    html:
+      `<span class="bg-green">✔</span> Mostras tu información` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Enlaces directo a tu whatsapp` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Galería de imagenes` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Dominio gratis por un año ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Botón de WhatsApp y/o Messenger` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Botones de Call To Action` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Renderizada para poder hacer marketing` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Formulario de suscripción para newsletter` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Hosting GRATIS` +
+      `</br>` +
+      `<span class="bg-green">✔</span> SEO trabajado para posicionar tu web en lo más alto` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Google analytics` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Formularios de contacto`,
+
+    imageUrl: "./assets/img/packs/landing.png",
+    imageWidth: 400,
+    imageHeight: 200,
+    imageAlt: "Custom image",
+  });
+});
+
+let eb = document.querySelector("#eb");
+eb.addEventListener("click", function () {
+  Swal.fire({
+    title: "E-commerce Básico",
+    html:
+      `<span class="bg-green">✔</span> Catálogo online hasta 50 productos` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Integración con procesadores de medios de pago online` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Panel de gestión de pedidos, productos y clientes ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Dominio gratis por un año ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Botón de WhatsApp` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Autoadministrable ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> 100% Escalable ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> 1 Formulario de contacto` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Limpiador de caché ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Calculadora de envíos de OCA` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Google analytics`,
+
+    imageUrl: "./assets/img/packs/ecob.png",
+    imageWidth: 400,
+    imageHeight: 200,
+    imageAlt: "Custom image",
+  });
+});
+
+let ef = document.querySelector("#ef");
+ef.addEventListener("click", function () {
+  Swal.fire({
+    title: "E-commerce FULL",
+    html:
+      `<span class="bg-green">✔</span> Catálogo online hasta 100 o más productos` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Integración con procesadores de medios de pago online` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Panel de gestión de pedidos, productos y clientes ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Secciones de contenido institucional ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Certificado SSL` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Dominio gratis por un año ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Integración con redes sociales (Poder etiquetar productos en las fotos) ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Botón de WhatsApp y/o Messenger` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Cuentas de correo corporativo` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Autoadministrable ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Diseño personalizable ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> 100% Escalable ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Una aplicación Mobile para poder gestionar todos los pedidos desde ahí ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Formularios de contacto` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Gestionada y configurada para hacer marketing ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Mantenimiento por 1 mes ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Limpiador de caché ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Pixel de Facebook  ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Chat online (si se desea) ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Calculadora de envíos de OCA` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Hosting durante un año ` +
+      `</br>` +
+      `<span class="bg-green">✔</span> Google analytics`,
+
+    imageUrl: "./assets/img/packs/ecof.png",
+    imageWidth: 400,
+    imageHeight: 200,
+    imageAlt: "Custom image",
+  });
+});
